@@ -1,0 +1,22 @@
+.contato{
+    width: 400px;
+    height: auto;
+
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.redes>a:hover{
+    background-color: #7ABAFF;
+    padding: 5px;
+}
+@media only screen and (max-width: 991px){
+    .contato{
+        width: 320px;
+        height: auto;
+    }
+}

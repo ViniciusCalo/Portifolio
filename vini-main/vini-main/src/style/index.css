@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #e0d4ff;
+}
+body{
+background-image: linear-gradient(rgb(57, 22, 138),rgb(113, 52, 255));}
+
+nav{
+    background-color: rgba(98, 0, 255, 0.6);
+    font-size: 1.1em;
+}
+.nav-do-pai:hover{
+    background-color: #0300c091;
+    border-radius: 10px;
+}
+main{
+    
+}
+
+.cor-text{
+    background-color: rgba(77, 42, 233, 0.774);
+}
+
+h1{
+    font-family: 'Bungee Shade', cursive;
+     font-size: 2.1em;
+     padding: 10px;
+     color: rgb(140, 178, 250);
+}
+.icone{
+    width: auto;
+    height: auto;
+}
+   
+@media only screen and (max-width: 991px){
+    a{
+        text-align: center;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    .me{
+        width: 320px;
+        height: auto;
+    }
+    .habilidades{
+        width: 320px;
+        height: auto;
+    }
+    .formacao{
+        width: 320px;
+        height: auto;
+    }
+}

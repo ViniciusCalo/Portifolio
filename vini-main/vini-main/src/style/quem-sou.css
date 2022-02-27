@@ -1,0 +1,35 @@
+.sessao-quem-sou{
+    margin-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    align-items: center;
+}
+.foto-vini{
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+}
+.me{
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+}
+.me>p{
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+}
+.me>h2{
+    font-size: 2em;
+}
+@media only screen and (max-width: 991px){
+    .me{
+        width: 320px;
+        height: auto;
+    }
+    .foto-vini{
+        margin-bottom: 1em;
+    }
+}
